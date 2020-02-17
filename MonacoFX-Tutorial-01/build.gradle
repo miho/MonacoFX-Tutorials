@@ -1,0 +1,55 @@
+import java.text.SimpleDateFormat
+
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.8'
+    id 'com.github.hierynomus.license' version '0.15.0'
+}
+
+wrapper {
+    gradleVersion = '6.1'
+}
+
+sourceCompatibility = '11'
+targetCompatibility = '11'
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+
+    implementation 'eu.mihosoft.monacofx:monacofx:0.0.2'
+}
+
+application {
+    mainClassName = 'eu.mihosoft.monacofx.tutorial01.App'
+}
+
+javafx {
+    modules = [ 'javafx.controls', 'javafx.web']
+}
+
+license {
+    header = rootProject.file('config/HEADER')
+
+    strictCheck = true
+    ignoreFailures = false
+
+    mapping {
+        java   = 'SLASHSTAR_STYLE'
+        groovy = 'SLASHSTAR_STYLE'
+        gradle = 'SLASHSTAR_STYLE'
+        fxml   = 'XML_STYLE'
+        html   = 'XML_STYLE'
+    }
+
+    ext.yearCurrent  = new SimpleDateFormat("yyyy").format(new Date())
+    ext.years   = ('2020'.equals(ext.yearCurrent)?'':'2020-')+ext.yearCurrent
+    ext.author1 = 'Michael Hoffer <info@michaelhoffer.de>'
+
+    include '**/*.java'
+}
