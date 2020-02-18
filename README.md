@@ -9,7 +9,7 @@ Tutorial projects for [MonacoFX]()
 
 ## Introduction
 
-MonacoFX is a powerful editor node for JavaFX. It is based on [Monaco](https://microsoft.github.io/monaco-editor/) the code editor that drives [VSCode](https://github.com/Microsoft/vscode).
+MonacoFX is a powerful editor node for JavaFX. It is based on [Monaco](https://microsoft.github.io/monaco-editor/), the code editor that drives [VSCode](https://github.com/Microsoft/vscode).
 
 <img src="https://github.com/miho/MonacoFX/blob/master/resources/img/screenshot.png">
 
