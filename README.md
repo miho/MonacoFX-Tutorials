@@ -1,6 +1,6 @@
 # MonacoFX-Tutorials
 
-Tutorial projects for [MonacoFX]()
+Tutorial projects for [MonacoFX](https://github.com/miho/MonacoFX)
 
 ## Contents
 
@@ -9,8 +9,8 @@ Tutorial projects for [MonacoFX]()
 
 ## Introduction
 
-MonacoFX is a powerful editor node for JavaFX. It is based on [Monaco](https://microsoft.github.io/monaco-editor/), the code editor that drives [VSCode](https://github.com/Microsoft/vscode).
+[MonacoFX](https://github.com/miho/MonacoFX) is a powerful editor node for JavaFX. It is based on [Monaco](https://microsoft.github.io/monaco-editor/), the code editor that drives [VSCode](https://github.com/Microsoft/vscode).
 
 <img src="https://github.com/miho/MonacoFX/blob/master/resources/img/screenshot.png">
 
-It uses the JavaFX WebView node to integrate Monaco into the scene graph. Additionally, it provides a Java API for adding custom languages, code folding and themes. Changing properties, like text and scroll position, are represented as regular JavaFX properties. The correspoonding callbacks into JS are added by MonacoFX.
+It uses the JavaFX WebView node to integrate Monaco into the scene graph. Additionally, it provides a Java API for adding custom languages, code folding and themes. Changing properties, like text and scroll position, are represented as regular JavaFX properties. The correspoonding callbacks into JS are added by [MonacoFX](https://github.com/miho/MonacoFX).
