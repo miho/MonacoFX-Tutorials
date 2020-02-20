@@ -25,7 +25,6 @@ package eu.mihosoft.monacofx.tutorial01;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
-import javafx.scene.layout.HBox;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 import eu.mihosoft.monacofx.MonacoFX;

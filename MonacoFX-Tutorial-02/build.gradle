@@ -26,7 +26,7 @@ dependencies {
 }
 
 application {
-    mainClassName = 'eu.mihosoft.monacofx.tutorial01.App'
+    mainClassName = 'eu.mihosoft.monacofx.tutorial02.App'
 }
 
 javafx {

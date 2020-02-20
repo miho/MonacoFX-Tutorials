@@ -6,6 +6,7 @@ Tutorial projects for [MonacoFX](https://github.com/miho/MonacoFX)
 
 - [Introduction](https://github.com/miho/MonacoFX-Tutorials/blob/master/README.md#introduction)
 - [Getting Startet](https://github.com/miho/MonacoFX-Tutorials/tree/master/MonacoFX-Tutorial-01)
+- [Registering custom Languages and Themes](https://github.com/miho/MonacoFX-Tutorials/tree/master/MonacoFX-Tutorial-02)
 
 ## Introduction
 
