@@ -23,11 +23,11 @@
  */
 package eu.mihosoft.monacofx.tutorial01;
 
+import eu.mihosoft.monacofx.*;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
-import eu.mihosoft.monacofx.MonacoFX;
 
 public class App extends Application {
 
@@ -63,5 +63,12 @@ public class App extends Application {
          + ")");
         primaryStage.setScene(scene);
         primaryStage.show();
+
+//        monacoFX.getEditor().getDocument().setSelections(
+//                new Selections(new Selection[]{
+//                        new Selection(2, 1, 3, 0)
+//                })
+//        );
+
     }
 }
