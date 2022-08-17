@@ -8,7 +8,7 @@ plugins {
 }
 
 wrapper {
-    gradleVersion = '6.2'
+    gradleVersion = '7.5.1'
 }
 
 sourceCompatibility = '11'
@@ -16,13 +16,13 @@ targetCompatibility = '11'
 [compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
 
 repositories {
-    jcenter()
+    mavenCentral()
 }
 
 dependencies {
-    testImplementation 'junit:junit:4.12'
+    testImplementation 'junit:junit:4.13'
 
-    implementation 'eu.mihosoft.monacofx:monacofx:0.0.2'
+    implementation 'eu.mihosoft.monacofx:monacofx:0.0.8'
 }
 
 application {
@@ -30,6 +30,7 @@ application {
 }
 
 javafx {
+    version = 18
     modules = [ 'javafx.controls', 'javafx.web']
 }
 
